@@ -1,0 +1,47 @@
+.OrderingScreen {
+  background-color: #9f9;
+}
+
+.OrderingScreen-split-person {
+  margin-left: 10px;
+}
+
+.ordering-image {
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+}
+
+.ordering-dialog {
+  padding-top: 5rem;
+}
+
+.ordering-option {
+  border-bottom: black 1px solid;
+  margin: 20px 10px;
+}
+
+.modal-content {
+  max-height: 80vh;
+}
+
+.modal-title {
+  color: #c4c2c1;
+}
+
+.modal-header {
+  background: #343a40;
+}
+
+.modal-body {
+  background: #fafafa;
+  overflow-y: scroll;
+}
+
+.modal-footer {
+  background: #343a40;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  margin-right: 5px;
+}

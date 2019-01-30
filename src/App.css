@@ -1,0 +1,11 @@
+body, .App-container {
+  background: #1c313a;
+  min-width: 350px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

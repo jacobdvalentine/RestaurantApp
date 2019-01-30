@@ -1,0 +1,324 @@
+{
+  "dishes": [
+    {
+      "name": "Mac 'N Cheese",
+      "category": "Appetizer",
+      "description": "A classic. Macaroni and 3 rich cheeses.",
+      "price": 50,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": ["popular", "recommended"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Macaroni_and_cheese_%282%29_%28cropped%29.jpg"
+    },
+    {
+      "name": "Jumbo Fried Shrimp",
+      "category": "Appetizer",
+      "description": "Prime Alaskan jumbo shrimp battered and fried with an special breading.",
+      "price": 90,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": ["popular"],
+      "image": "https://images.pexels.com/photos/1123250/pexels-photo-1123250.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "Nachos",
+      "category": "Appetizer",
+      "description": "Cheesy nachos with sour cream and salsa.",
+      "price": 70,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": ["popular"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Goettanachos.jpg"
+    },
+    {
+      "name": "Onion Rings",
+      "category": "Appetizer",
+      "description": "Baskets of deep-fried beer-battered onion rings.",
+      "price": 90,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://images.pexels.com/photos/263049/pexels-photo-263049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "Wings",
+      "category": "Appetizer",
+      "description": "Classic bone-in chicken wings, available with sauce or a dry rub.",
+      "price": 90,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        },
+        {
+          "name": "Sauce",
+          "type": "choice",
+          "default": "Mild BBQ",
+          "choices": ["Mild BBQ", "Dry Rub Cajun"]
+        }
+      ],
+      "tags": [],
+      "image": "https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "French Fries",
+      "category": "Appetizer",
+      "description": "Thick-cut fries with sea salt.",
+      "price": 50,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": ["popular"],
+      "image": "https://images.pexels.com/photos/162971/potatoes-french-mourning-funny-162971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "Burger",
+      "category": "entree",
+      "description": "1/3 pound classic burger with a selection of cheeses.",
+      "price": 130,
+      "options": [
+        {
+          "name": "Pickles",
+          "type": "bool",
+          "default": true
+        },
+        {
+          "name": "Cheese",
+          "type": "choice",
+          "default": "American",
+          "choices": ["American", "Cheddar", "None"]
+        },
+        {
+          "name": "How well done?",
+          "type": "choice",
+          "default": "Medium Rare"
+        }
+      ],
+      "tags": ["recommended"],
+      "image": "https://images.pexels.com/photos/161519/abstract-barbecue-barbeque-bbq-161519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "Pasta",
+      "category": "entree",
+      "description": "Baked pasta with parmesan cheese.",
+      "price": 120,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "name": "Strip Steak",
+      "category": "entree",
+      "description": "Thin cuts of premium steak, seasoned to perfection.",
+      "price": 150,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://c1.staticflickr.com/5/4148/5028019897_759b867d51_b.jpg"
+    },
+    {
+      "name": "Hotdog",
+      "category": "entree",
+      "description": "All beef hotdog",
+      "price": 100,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hot_dog_with_mustard.png"
+    },
+    {
+      "name": "Chicken Tenders",
+      "category": "entree",
+      "description": "A mainstay of any restaurant, classic chicken tenders.",
+      "price": 120,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],     
+      "tags": ["recommended"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gardein_Crispy_Tenders_at_Loving_Hut_Restaurant_%284907394193%29.jpg"
+    },
+    {
+      "name": "Street Tacos",
+      "category": "entree",
+      "description": "four beef tacos",
+      "price": 100,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],     
+      "tags": ["recommended"],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/2560px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg"
+    },
+    {
+      "name": "Whiskey Sour",
+      "category": "drink",
+      "description": "whiskey and sour juice cocktail",
+      "price": 100,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://cdn.liquor.com/wp-content/uploads/2017/11/06162323/amaretto-sour-1200x628-social.jpg"
+    },
+    {
+      "name": "Moscow Mule",
+      "category": "drink",
+      "description": "vodka, spicy ginger beer, and lime juice cocktail",
+      "price": 100,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Moscow_Mule_at_Rye%2C_San_Francisco.jpg/1200px-Moscow_Mule_at_Rye%2C_San_Francisco.jpg"
+    },
+    {
+      "name": "Old Fashioned",
+      "category": "drink",
+      "description": "bourbon and syrup cocktail",
+      "price": 100,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREbdFtnOIJrkl2oRKvHEMrSsaIT8Mgf6B7LSKMZgCa_8MOfeTO"
+    },
+    {
+      "name": "Mai Tai",
+      "category": "drink",
+      "description": "rum, Curaçao liqueur, orgeat syrup, and lime juice cocktail",
+      "price": 120,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://images.food52.com/zrNpke-4NyfWFJdpBt0pcBbRF5U=/753x502/44b30f66-f550-45aa-ae0c-8de2647a51fb--2014-0708_mai-tai-cocktail-002.jpg"
+    },
+    {
+      "name": "Bloody Mary",
+      "category": "drink",
+      "description": "vodka, tomato juice, and cocktail",
+      "price": 120,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhM7XEPghfE1RBrBqr-oNdc2P3g8Mbphflw8Z-7jnpoxRxbbHo"
+    },
+    {
+      "name": "Rum and Coke",
+      "category": "drink",
+      "description": "rum and coke cocktail",
+      "price": 90,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://i2.wp.com/allforthememories.com/wp-content/uploads/2018/04/aftm-rum-coke-signature-drink-bar-19.jpg?resize=770%2C514&ssl=1"
+    },    
+    {
+      "name": "Vodka Cranberry",
+      "category": "drink",
+      "description": "vodka and cranberry juice cocktail",
+      "price": 90,
+      "options": [
+        {
+          "name": "Size",
+          "type": "choice",
+          "default": "Large",
+          "choices": ["Small", "Large"]
+        }
+      ],
+      "tags": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxT3nnayf8SVTqhrj1rnZHsHU9DQE2VSExz1XJ9To9EAHALRM"
+    }
+  ]
+}
